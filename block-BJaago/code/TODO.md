@@ -74,3 +74,8 @@ function double(num) {
   return num * 2;
 }
 ```
+
+
+
+//declaration and execution phase : in the declaration phase the declared variables and functions comes inside it without the value in the memory.
+//for the execution phase the the variables inside the variables are given the value and the functions are being read and according to the fucntion call,it wwill be execeuted from the memory and the result will be provided.
