@@ -21,6 +21,7 @@ The above code will throw an error `Reference Error username is not defined`.
 }
 console.log(useranme); // output
 ```
+username not defined.
 
 3. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
 
@@ -30,14 +31,14 @@ if (true) {
 }
 console.log(useranme); // output
 ```
-
+username not defined.
 4. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
 
 ```js
 if (true) {
   var username = 'Arya';
 }
-console.log(useranme); // output
+console.log(useranme); // output username not defined
 ```
 
 5. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -47,7 +48,7 @@ let username = 'John';
 if (true) {
   var username = 'Arya';
 }
-console.log(useranme); // output
+console.log(useranme); // output // username already being defined.
 ```
 
 6. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -57,7 +58,7 @@ let username = 'John';
 if (true) {
   let username = 'Arya';
 }
-console.log(useranme); // output
+console.log(useranme); // output// username already being defined.
 ```
 
 7. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -67,8 +68,8 @@ let username = 'John';
 function sayHello() {
   let username = 'Arya';
 }
-sayHello();
-console.log(useranme); // output
+sayHello(); arya
+console.log(useranme); // output //john
 ```
 
 8. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -77,7 +78,17 @@ console.log(useranme); // output
 for (var i = 0; i < 10; i++) {
   console.log(i, 'First'); // output
 }
-console.log(i, 'Second'); // output
+console.log(i, 'Second'); // output //10 second
+0 "First"
+VM476:2 1 "First"
+VM476:2 2 "First"
+VM476:2 3 "First"
+VM476:2 4 "First"
+VM476:2 5 "First"
+VM476:2 6 "First"
+VM476:2 7 "First"
+VM476:2 8 "First"
+VM476:2 9 "First"
 ```
 
 9. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
